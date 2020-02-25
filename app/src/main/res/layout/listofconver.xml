@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:id="@+id/chatters"
+    android:fadingEdge="horizontal|vertical">
+
+    <TextView
+        android:id="@+id/caregiver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="70dp"
+        android:text="test text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#5783db"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="450dp"
+
+
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="70dp"
+        android:text="test text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="#5783db"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="10dp"
+
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+
+        />
+
+</RelativeLayout>
